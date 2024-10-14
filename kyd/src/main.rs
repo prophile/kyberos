@@ -14,7 +14,7 @@ async fn main() {
 
     let addr = SocketAddr::new(IpAddr::V6(Ipv6Addr::new(0, 0, 0, 0, 0, 0, 0, 0)), PORT);
 
-    warp::serve(info).run(addr).await
+    warp::serve(info).run(addr).await;
 }
 
 #[cfg(test)]
