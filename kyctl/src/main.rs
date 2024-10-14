@@ -28,11 +28,6 @@ async fn main() {
 
     println!("Server version: {}", info.server_version);
 }
-// fn main() {
-//     let args = Args::parse();
-
-//     println!("kyctl: {}", args);
-// }
 
 #[cfg(test)]
 mod tests {
