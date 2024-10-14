@@ -6,3 +6,7 @@ resolver = "2"
 version = "0.1.0"
 edition = "2021"
 authors = ["Alistair Lynn <alistair@alynn.co.uk>"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+missing_docs = "forbid"
