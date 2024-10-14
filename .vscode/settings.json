@@ -1,0 +1,25 @@
+{
+    // Enable format on save for all files
+    "editor.formatOnSave": true,
+
+    // Other tidyups
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+
+    // Rust specific settings
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+
+    // YAML specific settings
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+
+    // Additional settings for better Rust development experience
+    "rust-analyzer.cargo.runBuildScripts": true,
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.procMacro.enable": true
+}
