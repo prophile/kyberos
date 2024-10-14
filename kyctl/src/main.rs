@@ -1,7 +1,7 @@
 use clap::Parser;
+use kyberos_protocol::SystemInfo;
 use reqwest::Client;
 use std::fmt::{self, Display, Formatter};
-use kyberos_protocol::SystemInfo;
 
 #[derive(Parser, Debug, Clone)]
 #[command(version, about = "kyctl: A command-line interface for Kyberos.")]
